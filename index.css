@@ -13,24 +13,25 @@ header {
 .main {
     display: inline-flex;
     align-items: end;
+    width: 100%;
 }
 
 .sidebar-left {
-    width: 100px;
+    width: 10%;
     height: 700px;
     background-color: gray;
     justify-content: start;
 }
 
 .middle {
-    width: 1300px;
+    width: 80%;
     height: 80px;
     background-color: black;
     justify-content: center ;
 } 
 
 .sidebar-right {
-    width: 100px;
+    width: 10%;
     height: 700px;
     background-color: gray;
     justify-content: end;
